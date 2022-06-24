@@ -1,0 +1,35 @@
+
+ 
+  .cursor2 {
+    position: relative;
+    height: 40px;
+    width: 40px;
+
+    
+  
+    /* border-radius: 50%; */
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    /* pointer-events: none; */
+    background-image: url("images.jpg");
+    background-size: 40px;
+  
+    background-color: transparent;
+    background-repeat: no-repeat;
+    z-index: 99999;
+  }
+  .cursor {
+    position: relative;
+    height: 100px;
+    width: 100px;
+  
+    /* border-radius: 50%; */
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    /* pointer-events: none; */
+    background-image: url("https://images.prismic.io/andy-portfolio/d6ced8b6-573e-4151-aaa7-84a8902072ee_2a73c15.jpg?auto=compress,format&amp;rect=0,0,1215,810&amp;w=540&amp;h=360");
+    background-size: 40px;
+  
+    background-color: transparent;
+    background-repeat: no-repeat;
+    z-index: 99999;
+  }
+  
